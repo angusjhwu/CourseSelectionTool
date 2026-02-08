@@ -87,6 +87,13 @@ def extract_coursesets_from_field(
 
         counter += 1
 
+    # NEW: After bracket extraction, create final course set for remaining content
+    # This handles simple single courses, OR lists, AND lists, etc.
+    if updated_value.strip():
+        set_id = f"{course_code}_{field_type}{counter}"
+        coursesets[set_id] = updated_value.strip()
+        updated_value = set_id
+
     return updated_value, coursesets
 
 

@@ -57,7 +57,7 @@
       "group": null,
       "session": "S",
       "description": "An introduction to, and implementation of, a framework for the design process, which is used to teach in context, problem solving, professional communication, and team skills.Students are introduced to design, communication, and teamwork as integral and inter-related components of engineering practice. Building on the first course, this second course in the two Engineering Strategies and Practice course sequence introduces students to project management, oral professional communication, and to the design process in greater depth. Students work in teams on a term length design project. Students will write a series of team based and individual engineering reports and give a team based design project oral presentation.",
-      "prerequisites": "APS111H1 / ESC101H1",
+      "prerequisites": "APS112H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -68,7 +68,7 @@
       "group": "C",
       "session": "B",
       "description": "A basic introduction to the history, technology, programming and applications of the fast evolving field of deep learning. Topics to be covered may include neural networks, autoencoders/decoders, recurrent neural networks, natural language processing, and generative adversarial networks. Special attention will be paid to security, fairness and ethics issues surrounding machine learning. An applied approach will be taken, where students get hands-on exposure to the covered techniques through the use of state-of-the-art machine learning software frameworks.",
-      "prerequisites": "APS360H1_p1 & APS360H1_p2 & APS360H1_p3",
+      "prerequisites": "APS360H1_p4",
       "corequisites": null,
       "exclusions": null
     },
@@ -90,7 +90,7 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "Fundamental biomedical research technologies with specific focus on cellular and molecular methodologies. Examples include DNA and protein analysis and isolation, microscopy, cell culture and cellular assays. Combines both theoretical concepts and hand-on practical experience via lectures and wet labs, respectively. Specific applications as applied to biotechnology and medicine will also be outlined and discussed.",
-      "prerequisites": "CHE353H1",
+      "prerequisites": "BME440H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -101,7 +101,7 @@
       "group": "B",
       "session": "F",
       "description": "Generation, transmission and the significance of bioelectricity in neural networks of the brain. Topics covered include: (i) Basic features of neural systems. (ii) Ionic transport mechanisms in cellular membranes. (iii) Propagation of electricity in neural cables. (iv) Extracellular electric fields. (v) Neural networks, neuroplasticity and biological clocks. (vi) Learning and memory in artificial neural networks. Laboratory experiences include: (a) Biological measurements of body surface potentials (EEG and EMG). (b) Experiments on computer models of generation and propagation of neuronal electrical activities. (c) Investigation of learning in artificial neural networks. This course was previously offered asECE445H1.",
-      "prerequisites": "ECE159H1 / ECE110H1",
+      "prerequisites": "BME445H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -112,7 +112,7 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "Engineering and biophysical tools are used to integrate and enhance our understanding of animal cell behaviour from the molecular to the tissue level. Quantitative methods are used to mathematically model the biology of cell growth, division and differentiation to tissue formation. Specific topics include receptor-ligand interactions, cell adhesion and migration, signal transduction, cell growth and differentiation. Examples from the literature are used to highlight applications in cellular and tissue engineering.",
-      "prerequisites": "CHE353H1 & CHE354H1",
+      "prerequisites": "BME455H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -136,7 +136,7 @@
       "description": "Using a quantitative, problem solving approach, this course will introduce basic concepts in cell biology and physiology. Various engineering modelling tools will be used to investigate aspects of cell growth and metabolism, transport across cell membranes, protein structure, homeostasis, nerve conduction and mechanical forces in biology.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "BME205H1"
+      "exclusions": "CHE353H1_e1"
     },
     {
       "code": "CHE354H1",
@@ -145,7 +145,7 @@
       "group": null,
       "session": "S",
       "description": "This course will cover the principles of molecular and cellular biology as they apply to both prokaryotic and eukaryotic cells. Topics will include: metabolic conversion of carbohydrates, proteins, and lipids; nucleic acids; enzymology; structure and function relationships within cells; and motility and growth. Genetic analysis, immunohistochemistry, hybridomis, cloning, recombinant DNA and biotechnology will also be covered. This course will appeal to students interested in environmental microbiology, biomaterials and tissue engineering, and bioprocesses.",
-      "prerequisites": "CHE353H1",
+      "prerequisites": "CHE354H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -158,7 +158,7 @@
       "description": "The principles of statics are applied to composition and resolution of forces, moments and couples. The equilibrium states of structures are examined. Throughout, the free body diagram concept is emphasized. Vector algebra is used where it is most useful, and stress blocks are introduced. Shear force diagrams, bending moment diagrams and stress-strain relationships for materials are discussed. Stress and deformation in axially loaded members and flexural members (beams) are also covered.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "APS160H1"
+      "exclusions": "CIV100H1_e1"
     },
     {
       "code": "CIV220H1",
@@ -167,8 +167,8 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "Core Course in the Environmental Engineering Minor Basic concepts of ecology within the context of urban environments. Response of organisms, populations, dynamic predator-prey and competition processes, and ecosystems to human activities. Thermodynamic basis for food chains, energy flow, biodiversity and ecosystem stability. Biogeochemical cycles, habitat fragmentation and bioaccumulation. Introduction to industrial ecology and life cycle assessment principles. Urban metabolism and material flow analysis of cities. Response of receiving waters to pollution and introduction to waste water treatment. Emphasis is on identifying the environment/engineering interface and minimizing environmental impacts.",
-      "prerequisites": "CHE112H1",
-      "corequisites": "CIV282H1",
+      "prerequisites": "CIV220H1_p1",
+      "corequisites": "CIV220H1_c1",
       "exclusions": null
     },
     {
@@ -180,7 +180,7 @@
       "description": "Core Course in the Sustainable Energy Minor Various earth systems for energy transformation, storage and transport are explored. Geological, hydrological, biological, cosmological and oceanographic energy systems are considered in the context of the Earth as a dynamic system, including the variation of solar energy received by the planet and the redistribution of this energy through various radiative, latent and sensible heat transfer mechanisms. It considers the energy redistribution role of large scale atmospheric systems, of warm and cold ocean currents, the role of the polar regions, and the functioning of various hydrological systems. The contribution and influence of tectonic systems on the surface systems is briefly introduced, as well the important role of energy storage processes in physical and biological systems, including the accumulation of fossil fuel reserves.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "ENV346H1"
+      "exclusions": "CIV300H1_e1"
     },
     {
       "code": "CSC317H1",
@@ -200,9 +200,9 @@
       "group": "C",
       "session": "B",
       "description": "Introduction to database management systems. The relational data model. Relational algebra. Querying and updating databases: the query language SQL. Application programming with SQL. Integrity constraints, normal forms, and database design. Elements of database system technology: query processing, transaction management.",
-      "prerequisites": "CSC343H1_p4 & CSC343H1_p5",
+      "prerequisites": "CSC343H1_p9",
       "corequisites": null,
-      "exclusions": "CSC343H5 / CSCC43H3 / MIE253H1 / MIE353H1"
+      "exclusions": "CSC343H1_e1"
     },
     {
       "code": "CSC384H1",
@@ -211,9 +211,9 @@
       "group": "C",
       "session": "B",
       "description": "Theories and algorithms that capture (or approximate) some of the core elements of computational intelligence. Topics include: search; logical representations and reasoning, classical automated planning, representing and reasoning with uncertainty, learning, decision making (planning) under uncertainty. Assignments provide practical experience, in both theory and programming, of the core topics.",
-      "prerequisites": "CSC384H1_p1 & CSC384H1_p2",
+      "prerequisites": "CSC384H1_p3",
       "corequisites": null,
-      "exclusions": "CSC384H5 / CSCD84H3 / MIE369H1"
+      "exclusions": "CSC384H1_e1"
     },
     {
       "code": "ECE110H1",
@@ -288,7 +288,7 @@
       "group": null,
       "session": "F",
       "description": "Methods for the analysis and design of electronic circuits based on semiconductor nonlinearcomponents (diodes, bipolar junction transistors and field effect transistors) and operational amplifiers. The operational amplifier is introduced and its non-idealities are addressed, including the impact on circuit applications. Basic physical operation of semiconductor devices, current-voltage characteristics, operating regions, DC modeling, small-signal modelling and biasing. Fundamental circuits such as rectifiers, limiting and clamping circuits and transistor amplifiers.",
-      "prerequisites": "ECE110H1 / ECE159H1",
+      "prerequisites": "ECE231H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -321,7 +321,7 @@
       "group": null,
       "session": "F",
       "description": "Provides a foundation in programming using an object-oriented programming language. Topics include: classes and objects, inheritance,exception handling, basic data structures (linked lists, binary trees, and hash tables), big-O complexity analysis, and testing and debugging. The laboratory assignments emphasize the use of object-oriented programming constructs in the design and implementation of reasonably large programs.",
-      "prerequisites": "APS105H1",
+      "prerequisites": "ECE244H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -332,9 +332,9 @@
       "group": null,
       "session": "S",
       "description": "Introduction to engineering design processes for hardware systems. In addition to familiarizing students with hardware design practices, tools, and skill sets, it also aims to develop effective oral and written communication in a team context. Principles of engineering design, project management and teamwork are developed and applied as students work in teams to create and implement a complex hardware system comprising analog and digital electronic circuits. Students learn how to synthesize, prototype, and assemble designs realized using printed circuit board technology, as well as how to test them using modern measurement equipment. They learn about computer-aided design (CAD) and other development tools including those for electronic circuit simulation, schematic capture, board layout, version control (git), and instrument control. Students develop and apply communication skills by preparing a variety of documents and presentations, including proposals, status reports, design reviews, and presentations. ​",
-      "prerequisites": "ECE231H1 & ECE241H1 & APS105H1",
-      "corequisites": "ECE212H1",
-      "exclusions": "ECE297H1"
+      "prerequisites": "ECE295H1_p1",
+      "corequisites": "ECE295H1_c1",
+      "exclusions": "ECE295H1_e1"
     },
     {
       "code": "ECE297H1",
@@ -343,9 +343,9 @@
       "group": null,
       "session": "S",
       "description": "An introduction to engineering design processes, illustrated by the design and implementation of a software system, and to effective oral and written communication in a team context. Principles of software design, project management and team work are developed in the lectures and tutorials, and students apply these concepts in the laboratories as they work in a team to design and implement a complex software system. Students learn and practice oral and written communication techniques in lectures and in meetings with their communication instructor, and apply these techniques in a variety of documents and presentations, such as short status reports and longer design proposals and design reviews. Students learn software development tools such as version control (git), debuggers, code verifiers and unit test frameworks and gain experience in graphical user interface design and algorithm development.",
-      "prerequisites": "APS105H1 & ECE244H1",
+      "prerequisites": "ECE297H1_p1",
       "corequisites": null,
-      "exclusions": "ECE295H1"
+      "exclusions": "ECE297H1_e1"
     },
     {
       "code": "ECE302H1",
@@ -354,9 +354,9 @@
       "group": "B",
       "session": "B",
       "description": "Events, sample space, axioms of probability. Discrete and continuous random variables, distribution and density functions. Bernoulli trials, Binomial, geometric, Poisson, exponential and Gaussian distributions.Expectation, moments, characteristic function and correlation coefficient. Functions of random variables. Random vectors, joint distributions, transformations. Applications will be chosen from communication theory, estimation and hypothesis testing, predictive analytics and other areas of electrical and computer engineering.",
-      "prerequisites": "MAT290H1 & MAT291H1 & ECE216H1",
+      "prerequisites": "ECE302H1_p1",
       "corequisites": null,
-      "exclusions": "ECE286H1"
+      "exclusions": "ECE302H1_e1"
     },
     {
       "code": "ECE311H1",
@@ -365,7 +365,7 @@
       "group": "B",
       "session": "B",
       "description": "An introduction to dynamic systems and their control. Differential equation models of mechanical, electrical, and electromechanical systems. State variable form. Linearization of nonlinear models and transfer functions. Use of Laplace transform to solve ordinary differential equations. Conversion of models from state variable form to transfer function representation and vice versa. Block diagrams and their manipulation. Time response: transient analysis and performance measures. Properties of feedback control systems. Steady state tracking:the notion of system type. The concept of stability of feedback systems, Routh-Hurwitz stability criterion. Frequency response and stability in the frequency domain. Root locus. Bode and Nyquist plots and their use in feedback control design.",
-      "prerequisites": "MAT290H1 & MAT291H1 & ECE216H1",
+      "prerequisites": "ECE311H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -378,7 +378,7 @@
       "description": "Three-phase systems; steady-state transmission line model; symmetrical three-phase faults; power system stability; symmetrical components; unsymmetrical faults and fault current calculation; distribution network; equivalent steady-state model of voltage-sourced converter; distributed energy resources (DR); distributed energy storage; interface between DR and power system.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "ECE413H1"
+      "exclusions": "ECE313H1_e1"
     },
     {
       "code": "ECE314H1",
@@ -387,9 +387,9 @@
       "group": "A",
       "session": "F",
       "description": "High-efficiency energy conversion via switched-mode power electronic circuits: design and steady-state modeling of DC/DC converters, DC/AC converters using pulse-width modulation. Transistor switch realization and basic efficiency analysis in power electronic converters. AC power quality and power factor, including non-sinusoidal currents. Energy conversion via magnetic devices: Faraday's law for time varying fields, characterization of hysteresis and eddy current losses in magnetic materials, modelling of magnetic circuits, transformer and inductor modelling and design. Introduction to electromechanical energy conversion: Lorentz Force, concepts of energy, co-energy, forces between ferromagnetic materials carrying flux, simple magnetic actuators, introduction to synchronous machines.",
-      "prerequisites": "ECE212H1 & ECE221H1 & ECE231H1",
+      "prerequisites": "ECE314H1_p1",
       "corequisites": null,
-      "exclusions": "ECE349H1"
+      "exclusions": "ECE314H1_e1"
     },
     {
       "code": "ECE316H1",
@@ -398,7 +398,7 @@
       "group": "B",
       "session": "B",
       "description": "An introductory course in analog and digital communication systems. Analog and digital signals. Signal representation and Fourier transforms; energy and power spectral densities; bandwidth. Distortionless analog communication; amplitude, frequency and phase modulation systems; frequency division multiplexing. Sampling, quantization and pulse code modulation (PCM). Baseband digital communication; intersymbol interference (ISI); Nyquist's ISI criterion; eye diagrams. Passband digital communications; amplitude-, phase- and frequency-shift keying; signal constellations. Performance analysis of analog modulation schemes in the presence of noise. Performance analysis of PCM in noise.",
-      "prerequisites": "ECE316H1_p1 / ECE316H1_p2",
+      "prerequisites": "ECE316H1_p3",
       "corequisites": null,
       "exclusions": null
     },
@@ -409,7 +409,7 @@
       "group": "A",
       "session": "B",
       "description": "Geometric Optics: Spherical surfaces, lenses and mirrors, optical imaging systems, matrix method, and aberrations. Polarization: Polarizer and polarizations, anisotropic materials, dichroism, birefringence, index ellipsoid, waveplates, optical activity, Faraday effect. Interference: superposition of waves, longitudinal and transverse coherence, Young's double-slit experiment, Michelson and Fabry-Perot interferometer, thin-films. Diffraction and Fourier Optics: diffraction theory, single and double slits, diffraction gratings, spatial filtering, basic optical signal processing. (Background preparation inECE320H1F - Fields and Waves, orECE357H1S - Electromagnetic Fields, is strongly recommended.)",
-      "prerequisites": "ECE221H1 / ECE259H1",
+      "prerequisites": "ECE318H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -420,7 +420,7 @@
       "group": "A",
       "session": "F",
       "description": "Voltage and current waves on a general transmission line, characteristic impedance, reflections from the load and source, transients on a transmission line, Smith's chart and impedance matching. Maxwell's equations, wave equation, constitutive relations, dispersion, boundary conditions. Plane wave propagation in lossless and lossy media, polarization, power flow and Poynting vector. Plane wave reflection and transmission at material boundaries. Waveguides; propagating and evanescent waveguide modes and cut-off frequencies.",
-      "prerequisites": "ECE221H1",
+      "prerequisites": "ECE320H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -433,7 +433,7 @@
       "description": "Study of programming styles and paradigms. Included are object-oriented scripting functional and logic-based approaches. Languages that support these programming styles will be introduced. Languages treated include Python, Lisp or Scheme and Prolog.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "CSC324H1 / CSC326H1"
+      "exclusions": "ECE326H1_e1"
     },
     {
       "code": "ECE330H1",
@@ -442,9 +442,9 @@
       "group": "A",
       "session": "S",
       "description": "The course introduces the principles of quantum physics and uses them to understand the behaviour of semiconductors. Topics to be covered include wave-particle duality, Schrodinger's equation, energy quantization, quantum mechanical tunnelling, electrons in crystalline semiconductors and other physical concepts that form the basis for nanotechnology, microelectronics, and optoelectronics.",
-      "prerequisites": "ECE221H1 / ECE231H1",
+      "prerequisites": "ECE330H1_p1",
       "corequisites": null,
-      "exclusions": "MSE235H1"
+      "exclusions": "ECE330H1_e1"
     },
     {
       "code": "ECE331H1",
@@ -453,7 +453,7 @@
       "group": "A",
       "session": "F",
       "description": "Transistor amplifierswith an emphasis on integrated circuit (IC) design.Building blocks include differential and multistage amplifiers, IC biasingtechniques, and output stage design. Frequency response of amplifiers atlow, medium and high frequencies. Feedback amplifier analysis. Stabilityand compensation techniques for amplifiers using negative feedback.​",
-      "prerequisites": "ECE212H1 & ECE231H1",
+      "prerequisites": "ECE331H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -464,7 +464,7 @@
       "group": "C",
       "session": "B",
       "description": "Digital design techniques for integrated circuits. The emphasis will be on the design of logic gates at the transistor level. A number of different logic families will be described, but CMOS will be emphasized. Review of: device modeling, IC processing, and Spice simulation, simplified layout rules, inverter noise margins, transient response, and power dissipation, traditional CMOS logic design, transmission gates, RC timing approximations, input-output circuits, latches and flipflops, counters and adders, decoders and muxes, dynamic gates, SRAMs, DRAMs, and EEPROMs.",
-      "prerequisites": "ECE334H1_p1 / ECE334H1_p2",
+      "prerequisites": "ECE334H1_p3",
       "corequisites": null,
       "exclusions": null
     },
@@ -475,9 +475,9 @@
       "group": "A",
       "session": "F",
       "description": "Electrical behaviour of semiconductor structures and devices. Metal-semiconductor contacts; pn junctions, diodes, photodetectors, LED's; bipolar junction transistors, Ebers-Moll and hybrid-pi models; field effect transistors, MOSFET, JFET/MESFET structures and models; thyristors and semiconductor lasers.",
-      "prerequisites": "MAT291H1 & ECE221H1 & ECE231H1",
+      "prerequisites": "ECE335H1_p1",
       "corequisites": null,
-      "exclusions": "MSE335H1"
+      "exclusions": "ECE335H1_e1"
     },
     {
       "code": "ECE342H1",
@@ -486,7 +486,7 @@
       "group": "C",
       "session": "S",
       "description": "Design of digital hardware components and systems using a hardware description language (HDL). Testbench creation for digital systems. Timing analysis of single and multi-clock designs, both in theory and using computer-aided design (CAD) tools in which timing constraints are specified in a standard way. Numerical representation of values including both floating point and fixed-point representations. Arithmetic circuits for binary addition, subtraction, multiplication and division. Architecture of on-chip systems including processors or large-scale parallel computation structures. Connection between system-level components using on-chip buses, including standard buses. Pipelined Computation. Memory types, interfacing and direct memory access. Off-chip peripherals and communication protocols. Labs will include significant larger scale design on field-programmable gate arrays (FPGAs).",
-      "prerequisites": "ECE241H1 & ECE243H1",
+      "prerequisites": "ECE342H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -497,9 +497,9 @@
       "group": "C",
       "session": "B",
       "description": "Operating system structures, concurrency, synchronization, deadlock, CPU scheduling, memory management, file systems. The laboratory exercises will require implementation of part of an operating system.",
-      "prerequisites": "ECE244H1 & ECE243H1",
+      "prerequisites": "ECE344H1_p1",
       "corequisites": null,
-      "exclusions": "ECE353H1"
+      "exclusions": "ECE344H1_e1"
     },
     {
       "code": "ECE345H1",
@@ -508,7 +508,7 @@
       "group": "C",
       "session": "B",
       "description": "Design and analysis of algorithms and data structures that are essential to engineers in every aspect of the computer hardware and software industry. Recurrences, asymptotics, summations, trees and graphs. Sorting, search trees and balanced search trees, amortized analysis, hash functions, dynamic programming, greedy algorithms, graph algorithms, minimum spanning trees, shortest paths, introduction to Nondeterministic Polynomial (NP) completeness and complexity, and other new trends in algorithms and data structures including secure data processing, vulnerability analysis and risk mitigation.",
-      "prerequisites": "ECE244H1",
+      "prerequisites": "ECE345H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -519,9 +519,9 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "An introduction to transmission lines: voltage and current waves, characteristic impedance, reflections from the load and source, transients on a transmission line, Smith's chart, impedance matching. Fundamentals of electromagnetic theory: Maxwell's equations, boundary conditions, wave equation and its solutions in lossless and lossy media. Constitutive relations and dispersion. Plane wave propagation, reflection and transmission at boundaries. Waveguides; propagating and evanescent waveguide modes and cut-off frequencies. Introduction to radiation and antennas.",
-      "prerequisites": "ECE259H1",
+      "prerequisites": "ECE357H1_p1",
       "corequisites": null,
-      "exclusions": "ECE320H1"
+      "exclusions": "ECE357H1_e1"
     },
     {
       "code": "ECE361H1",
@@ -530,8 +530,8 @@
       "group": "C",
       "session": "B",
       "description": "Layered network architectures; overview of Transmission Control Protocol (TCP)/Internet Protocol (IP) suite and introduction to sockets. Packet switching based on datagram and virtual circuit switching. Logical link control: Retransmission strategies, framing and error control. Medium access control and local-area networks (LAN). LAN interconnection with bridges. Introduction to the control plane of the Internet, routing algorithms, and routing protocols (e.g., Open Shortest Path First (OSPF) and Border Gateway Protocol (BGP)). Transport protocols used on the Internet (e.g., Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)). Application-layer protocols (e.g., Domain Name System (DNS) and Hypertext Transfer Protocol (HTTP)). Elements of network security, security mechanisms on the Internet, known attacks and countermeasures.",
-      "prerequisites": "ECE302H1 / MIE286H1",
-      "corequisites": "ECE302H1",
+      "prerequisites": "ECE361H1_p1",
+      "corequisites": "ECE361H1_c1",
       "exclusions": null
     },
     {
@@ -541,7 +541,7 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "This course will provide students with a grounding in optimization methods and the matrix algebra upon which they are based. The first past of the course focuses on fundamental building blocks in linear algebra and their geometric interpretation: matrices, their use to represent data and as linear operators, and the matrix decompositions (such as eigen-, spectral-, and singular-vector decompositions) that reveal structural and geometric insight. The second part of the course focuses on optimization, both unconstrained and constrained, linear and non-linear, as well as convex and nonconvex; conditions for local and global optimality, as well as basic classes of optimization problems are discussed. Applications from machine learning, signal processing, and engineering are used to illustrate the techniques developed.",
-      "prerequisites": "ECE367H1_p1 & ECE367H1_p2",
+      "prerequisites": "ECE367H1_p3",
       "corequisites": null,
       "exclusions": null
     },
@@ -552,9 +552,9 @@
       "group": "B",
       "session": "S",
       "description": "This course will focus on different classes of probabilistic models and how, based on those models, one deduces actionable information from data. The course will start by reviewing basic concepts of probability including random variables and first and second-order statistics. Building from this foundation the course will then cover probabilistic models including vectors (e.g., multivariate Gaussian), temporal (e.g., stationarity and hidden Markov models), and graphical (e.g., factor graphs). On the inference side topics such as hypothesis testing, marginalization, estimation, and message passing will be covered. Applications of these tools cover a vast range of data processing domains including machine learning, communications, search, recommendation systems, finance, robotics and navigation.",
-      "prerequisites": "ECE302H1 / MIE286H1",
+      "prerequisites": "ECE368H1_p1",
       "corequisites": null,
-      "exclusions": "CSC412H1"
+      "exclusions": "ECE368H1_e1"
     },
     {
       "code": "ECE381H1",
@@ -563,7 +563,7 @@
       "group": "B",
       "session": "S",
       "description": "This modular course introduces the foundations and evolving frontiers of cybersecurity. Delivered by a team of instructors with diverse expertise, the course offers both foundational grounding and a curated perspective on timely and emerging topics in cybersecurity. Through a combination of conceptual foundations and applied perspectives, students will develop core cybersecurity literacy and the analytical tools needed to understand and engage with contemporary threats and technologies. The curriculum is designed to be accessible by students from all disciplines.",
-      "prerequisites": "MIE231H1 / MIE236H1 / MIE286H1 / MSE238H1 / CHE223H1",
+      "prerequisites": "ECE381H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -574,7 +574,7 @@
       "group": "C",
       "session": "S",
       "description": "Design and implementation of contemporary embedded systems, emphasizing hardware–software integration and system-level trade-offs. Interrupts, memory-mapped input/output (I/O), binary operations, and number representations with implications for embedded computation; peripheral interfacing and signal conversion (analog-to-digital converter (ADC)/digital-to-analog converter (DAC)); and serial communication protocols (universal asynchronous receiver-transmitter (UART), inter-integrated circuit (I²C), serial peripheral interface (SPI), universal serial bus (USB), controller area network (CAN)). Embedded memory systems, direct memory access (DMA), and fundamentals of real-time and concurrent programming, including operating systems and real-time operating systems (RTOS). Power-aware design and low-power central processing unit (CPU) states; wireless connectivity (Wi-Fi, Zigbee, Bluetooth Low Energy); and embedded security. Development workflows, debugging, and verification techniques support a culminating design project addressing performance, power, reliability, and networked embedded applications.",
-      "prerequisites": "ECE241H1 & ECE243H1",
+      "prerequisites": "ECE390H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -585,9 +585,9 @@
       "group": "B",
       "session": "F",
       "description": "State space analysis of linear systems, the matrix exponential, linearization of nonlinear systems. Structural properties of linear systems: stability, controllability, observability, stabilizability, and detectability. Pole assignment using state feedback, state estimation using observers, full-order and reduced-order observer design, design of feedback compensators using the separation principle, control design for tracking. Control design based on optimization, linear quadratic optimal control, the algebraic Riccati equation. Laboratory experiments include computer-aided design using MATLAB and the control of an inverted pendulum on a cart.",
-      "prerequisites": "ECE311H1",
+      "prerequisites": "ECE410H1_p1",
       "corequisites": null,
-      "exclusions": "ECE557H1"
+      "exclusions": "ECE410H1_e1"
     },
     {
       "code": "ECE411H1",
@@ -596,7 +596,7 @@
       "group": "B",
       "session": "S",
       "description": "An introduction to adaptive control and reinforcement learning for discrete-time deterministic linear systems. Topics include: discrete-time state space models; stability of discrete time systems; parameter adaptation laws; error models in adaptive control; persistent excitation; controllability and pole placement; observability and observers; classical regulation in discrete-time; adaptive regulation; dynamic programming; Rescorla-Wagner model; value iteration methods; Q-learning; temporal difference learning.",
-      "prerequisites": "ECE311H1 / ECE356H1",
+      "prerequisites": "ECE411H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -607,9 +607,9 @@
       "group": "A",
       "session": "S",
       "description": "This course will provide students with an overview of continuous-time and discrete-time signal processing techniques, and the analysis and design of analog and mixed-signal circuit building blocks used in modern electronic systems. Topics covered include: analysis, specification, simulation, and design of continuous-time filters with linear transconductors and op-amps; phase-domain model, noise model, and design methodology for low phase noise Phase Lock Loops and associated building blocks (VCO, phase-frequency detector, charge pump); discrete-time signal analysis using z-transform; discrete-time filter design based on switched capacitors; as well as fundamentals, architectures, building blocks, and characterization techniques for digital-to-analog and analog-to-digital converters.",
-      "prerequisites": "ECE331H1 / ECE354H1",
+      "prerequisites": "ECE412H1_p1",
       "corequisites": null,
-      "exclusions": "ECE512H1"
+      "exclusions": "ECE412H1_e1"
     },
     {
       "code": "ECE417H1",
@@ -618,7 +618,7 @@
       "group": "B",
       "session": "F",
       "description": "Basic concepts of digital communication. Baseband data transmission, intersymbol interference, Nyquist pulse shaping, equalization, line coding, multi-path fading, diversity. Binary and M-ary modulation schemes, synchronization. Signal space concepts, optimum receivers, coherent and noncoherent detectors. Information theory, source encoding, error control coding, block and convolutional codes.",
-      "prerequisites": "ECE417H1_p1 / MIE286H1",
+      "prerequisites": "ECE417H1_p2",
       "corequisites": null,
       "exclusions": null
     },
@@ -629,7 +629,7 @@
       "group": "C",
       "session": "S",
       "description": "Design issues in distributed systems: heterogeneity, security, transparency, concurrency, fault-tolerance; networking principles; request-reply protocol; remote procedure calls; distributed objects; middleware architectures; CORBA; security and authentication protocols; distributed file systems; name services; global states in distributed systems; coordination and agreement; transactions and concurrency control; distributed transactions; replication.",
-      "prerequisites": "ECE344H1 / ECE353H1",
+      "prerequisites": "ECE419H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -640,9 +640,9 @@
       "group": "B",
       "session": "B",
       "description": "An Introduction to the basic theory, the fundamental algorithms, and the computational toolboxes of machine learning. The focus is on a balanced treatment of the practical and theoretical approaches, along with hands on experience with relevant software packages. Supervised learning methods covered in the course will include: the study of linear models for classification and regression, neural networks and support vector machines. Unsupervised learning methods covered in the course will include: principal component analysis, k-means clustering, and Gaussian mixture models. Theoretical topics will include: bounds on the generalization error, bias-variance tradeoffs and the Vapnik-Chervonenkis (VC) dimension. Techniques to control overfitting, including regularization and validation, will be covered.",
-      "prerequisites": "CHE223H1 / ECE302H1 / MIE231H1 / MIE236H1 / MIE286H1 / MSE238H1",
+      "prerequisites": "ECE421H1_p1",
       "corequisites": null,
-      "exclusions": "CSC411H1 / ECE521H1"
+      "exclusions": "ECE421H1_e1"
     },
     {
       "code": "ECE422H1",
@@ -651,7 +651,7 @@
       "group": "A",
       "session": "S",
       "description": "Analysis and design of systems employing radio waves, covering both the underlying electromagnetics and the overall system performance aspects such as signal-to-noise ratios. Transmission/reception phenomena include: electromagnetic wave radiation and polarization; elementary and linear dipoles; directivity, gain, efficiency; integrated, phased-array and aperture antennas; beam-steering; Friis transmission formula and link budget. Propagation phenomena include: diffraction and wave propagation over obstacles; multipath propagation; atmospheric and ionospheric effects. Receiver design aspects include: radio receiver architectures, receiver figures of merit, noise in cascaded systems, noise figure, and noise temperature. System examples are: terrestrial communication systems; satellite communications; radar; radiometric receivers; software-defined radio.",
-      "prerequisites": "ECE320H1 / ECE357H1",
+      "prerequisites": "ECE422H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -664,7 +664,7 @@
       "description": "Losses in conductors and dielectrics; RF and microwave transmission lines; transients on transmission lines; matching networks; planar transmission lines (microstrip, stripline, coplanar waveguide); design with scattering parameters; 3- and 4-port RF devices (power dividers/combiners, couplers, isolators & circulators); coupled lines and devices; microwave active circuits (RF amplifiers, mixers, and receiver front ends); RF and microwave filters. The hands-on laboratories engage students in the design, simulation, fabrication, and test of practical passive and active microwave circuits using industry-standard RF/microwave simulation tools and measurement systems.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "ECE524H1"
+      "exclusions": "ECE424H1_e1"
     },
     {
       "code": "ECE427H1",
@@ -673,7 +673,7 @@
       "group": "A",
       "session": "F",
       "description": "The human visual interface is rapidly evolving with the emergence of smart glasses, AR/VR wearable display, and autonomous vehicles. This course examines the photonic devices and integrated systems that underline such technologies, and how they are shaped by human visual perception and acuity. Advanced integrated photonic systems in optical display and sensing will be deconstructed and the underlying fundamental concepts studied. Topics include introduction to: heads up and wearable display, optical lidar, optical fiber, waveguide circuits, holography, optical switches, light sources (LED, laser), detectors and imaging sensors.",
-      "prerequisites": "ECE318H1 / ECE320H1 / ECE357H1",
+      "prerequisites": "ECE427H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -684,9 +684,9 @@
       "group": "A",
       "session": "F",
       "description": "Review of MOSFET semiconductor device equations. Noise in electronic devices. Review of single-stage amplifiers and frequency response, including noise analysis. Basic CMOS op amp. Op amp compensation. Advanced op amp circuits: telescopic and folded-cascode op amps. Fully-differential op amps. Common mode feedback.",
-      "prerequisites": "ECE331H1 / ECE354H1",
+      "prerequisites": "ECE430H1_p1",
       "corequisites": null,
-      "exclusions": "ECE530H1"
+      "exclusions": "ECE430H1_e1"
     },
     {
       "code": "ECE431H1",
@@ -706,7 +706,7 @@
       "group": "A",
       "session": "F",
       "description": "A review of the principles and practical implementation of quantum processors based on solid state superconducting and semiconductor spin qubits. The focus is on hardware with no overlap with existing Quantum Information or proposed Quantum Algorithms undergraduate EngSci or CompSci courses. A top-down approach is taken starting from the quantum processor architecture and building block specification, to qubit and control and readout circuit modelling, design, fabrication and testing. Topics include the basics of quantum mechanics and quantum computing, superconducting and semiconductor spin qubit physics, fabrication and characterization techniques for qubits, and classical control and readout of qubits. Students will gain hands-on experience with the engineering of a quantum computer, deriving specifications for its quantum and classical hardware building blocks, and designing, modelling, simulating, and testing qubits, control and readout circuits for quantum processors.",
-      "prerequisites": "ECE435H1_p1 & ECE435H1_p2 & ECE435H1_p3 & ECE435H1_p4 & ECE435H1_p5",
+      "prerequisites": "ECE435H1_p6",
       "corequisites": null,
       "exclusions": null
     },
@@ -717,9 +717,9 @@
       "group": "A",
       "session": "S",
       "description": "The introduction to VLSI fabrication techniques, integrated circuit designs and advanced semiconductor devices will give a proper perspective of the past, present and future trends in the VLSI industry. Following the evolution of MOS and bipolar devices, digital and analog CMOS, BiCMOS, deep submicron CMOS, SOI-CMOS, RF-CMOS and HV-CMOS technologies will be studied. Special attention will be given to the physical scaling limits such as short channel effects. In addition, CAD tools and design methodology for the development of advanced semiconductor devices and integrated circuits will be introduced in the laboratory environment. These include the simulation of device fabrication, device characteristics, device modeling, circuit layout, design verification. Finally, advanced technology such as GaN HEMTs, graphene devices, carbon nano-tube devices, power devices, heterojunctions, InP and GaSb HBTs will also be studied.",
-      "prerequisites": "ECE437H1_p1 & ECE437H1_p2",
+      "prerequisites": "ECE437H1_p3",
       "corequisites": null,
-      "exclusions": "ECE535H1 / ECE534H1"
+      "exclusions": "ECE437H1_e1"
     },
     {
       "code": "ECE441H1",
@@ -739,7 +739,7 @@
       "group": "A",
       "session": "F",
       "description": "An introduction to the fundamentals of micro- and non-fabrication processes with emphasis on cleanroom practices. The physical principles of optical lithography, electron-beam lithography, alternative nanolithography techniques, and thin film deposition and metrology methods. The physical and chemical processes of wet and dry etching. Cleanroom concepts and safety protocols. Sequential micro-fabrication processes involved in the manufacture of microelectronic and photonic devices. Imaging and characterization of micro- and nano-structures. Examples of practical existing and emerging micro- and nano-devices.Emphasis will be hands-on learning. Students, divided in small groups, will use the tolls and equipment at the Toronto Nanofabrication Cantre (TNFC) and the Open Centre for the Characterization of Advanced Materials (OCCAM). Limited enrollment.",
-      "prerequisites": "ECE335H1 / ECE350H1",
+      "prerequisites": "ECE442H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -750,9 +750,9 @@
       "group": "C",
       "session": "F",
       "description": "The collaborative software development process. Software requirements elicitation and specifications. Software design techniques. Techniques for developing large software systems. Software testing, quality assurance, documentation, and maintenance. Open-source software and web application design. Supply chain security, secure coding during code reviews.",
-      "prerequisites": "ECE344H1 / ECE353H1 / ECE297H1",
+      "prerequisites": "ECE444H1_p1",
       "corequisites": null,
-      "exclusions": "CSC444H1"
+      "exclusions": "ECE444H1_e1"
     },
     {
       "code": "ECE446H1",
@@ -816,8 +816,8 @@
       "group": "A",
       "session": "S",
       "description": "Electric drives comprise electric machines (i.e. motors/generators) together with power electronic actuation to enable the control of mechanical motion. Topics include electro-mechanical mechanisms for torque production relevant to rotating machines, speed-torque diagrams, DC machine analysis, dynamics and torque/speed/position control, introduction to space vectors and their application to motion control of synchronous machines and stepper motors. Steady state and variable speed operation of the induction machine using constant flux control is also covered.",
-      "prerequisites": "ECE463H1_p1 & ECE463H1_p2",
-      "corequisites": "ECE311H1 / ECE356H1 / AER372H1",
+      "prerequisites": "ECE463H1_p3",
+      "corequisites": "ECE463H1_c1",
       "exclusions": null
     },
     {
@@ -827,7 +827,7 @@
       "group": "B",
       "session": "S",
       "description": "The radio medium, radio communication system examples. Link budget: cable losses, propagation loss, antenna gains. Basic concepts of propagation: path loss, multi-path propagation and fading. Raleigh and Rician fading models, Doppler shift, delay spread, coherence time and coherence bandwidth of the channel. Analog modulation schemes and their bandwidths. Digital modulation schemes and their bandwidths and bit rates: BPSK, QPSK, MSK, GMSK. Basic concepts of speech coding. Error correction coding, interleaving, and multiple access frame structure. The physical layer description of the AMPS, IS-54, and GSM cellular systems. The cellular concept: frequency re-use, re-use cluster concept. Channel allocation. Cellular system architecture for AMPS, IS-54, and GSM. Hand-offs and transmitter power control. Cellular traffic, call blocking, concept of Erlangs. Basic ideas in spread spectrum modulation, spreading codes, bit error probability. Orthogonal and non-orthogonal CDMA Basic concepts in CDMA networks.",
-      "prerequisites": "ECE464H1_p1 / ECE464H1_p2",
+      "prerequisites": "ECE464H1_p3",
       "corequisites": null,
       "exclusions": null
     },
@@ -838,7 +838,7 @@
       "group": "C",
       "session": "S",
       "description": "Traffic modeling; network calculus; traffic classification; traffic regulation: shaping, filtering, policing, leaky bucket; queueing systems; scheduling; quality of service: Diffserv and IntServ/RSVP; multi-protocol label switching; call admission control / congestion control; switching; pricing; optical networks.",
-      "prerequisites": "ECE361H1",
+      "prerequisites": "ECE466H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -849,9 +849,9 @@
       "group": "C",
       "session": "F",
       "description": "Compiler organization, compiler writing tools, use of regular expressions, finite automata and context-free grammars, scanning and parsing, runtime organization, semantic analysis, implementing the runtime model, storage allocation, code generation.",
-      "prerequisites": "ECE243H1 / ECE352H1",
+      "prerequisites": "ECE467H1_p1",
       "corequisites": null,
-      "exclusions": "CSC467H1"
+      "exclusions": "ECE467H1_e1"
     },
     {
       "code": "ECE469H1",
@@ -871,9 +871,9 @@
       "group": "B",
       "session": "F",
       "description": "Classification of robot manipulators, kinematic modeling, forward and inverse kinematics, velocity kinematics, path planning, point-to-point trajectory planning, dynamic modeling, Euler-Lagrange equations, inverse dynamics, joint control, computed torque control, passivity-based control, feedback linearization.",
-      "prerequisites": "ECE311H1 / ECE356H1",
+      "prerequisites": "ECE470H1_p1",
       "corequisites": null,
-      "exclusions": "AER525H1"
+      "exclusions": "ECE470H1_e1"
     },
     {
       "code": "ECE472H1",
@@ -893,7 +893,7 @@
       "group": "C",
       "session": "S",
       "description": "Provides a comprehensive understanding of quantum information processing, focusing on software tools and algorithms for quantum computing. The material covers foundational quantum mechanics background, introduces quantum computing basics, and explores key software frameworks and algorithms. Through programming exercises and projects, students develop skills in designing and implementing quantum algorithms. Exercises are conducted using prominent quantum simulators. Topics include quantum gates, single and multiple qubit systems, quantum key distribution (e.g., Bennett-Brassard 1984 (quantum key distribution protocol)), no cloning theorem, and quantum safe cryptography.",
-      "prerequisites": "MIE286H1 / ECE302H1",
+      "prerequisites": "ECE484H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -906,7 +906,7 @@
       "description": "A full year capstone design project course intended to give students an opportunity to apply their technical knowledge and communication skills. Working in teams under the direct supervision of a faculty member, students develop a design project of their choice from an initial concept to a final working prototype. In the first session, a project proposal is submitted early on, followed by a project requirements specification. A design review meeting is then held to review the proposed design. Lectures given during the first session will develop expertise in various areas related to design and technical communication. In the second session, the teams present their work in a number of ways, including an oral presentation, a poster presentation, a final demonstration at the Design Fair, an individual progress report, and a group final report. Course deliverables are evaluated by both the team's supervisor and one of several course administrators.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "APS490Y1"
+      "exclusions": "ECE496Y1_e1"
     },
     {
       "code": "ECE516H1",
@@ -926,9 +926,9 @@
       "group": "A",
       "session": "F",
       "description": "Focuses on power electronic converters utilized in applications ranging from low-power mobile devices to higher power applications such as electric vehicles, server farms, microgrids, and renewable energy systems. Concepts covered include the principles of efficient electrical energy processing (dc-dc, dc/ac, and ac/ac) through switch-mode energy conversion, converter loss analysis, large- and small-signal modeling of power electronic circuits and controller design.",
-      "prerequisites": "ECE314H1 / ECE349H1 / ECE359H1",
+      "prerequisites": "ECE520H1_p1",
       "corequisites": null,
-      "exclusions": "ECE514H1 / ECE533H1"
+      "exclusions": "ECE520H1_e1"
     },
     {
       "code": "ECE526H1",
@@ -937,7 +937,7 @@
       "group": "A",
       "session": "F",
       "description": "Presents the concepts of short-circuit fault analysis, protective relaying, and automation in power systems. The course starts by discussing the causes and types of short-circuit faults using real-world examples. The consequences of faults for different power system components are reviewed using event reports from field data. The method of symmetrical components for analyzing unbalanced three-phase systems are introduced. Analytical methods and computer-based approaches for deriving fault voltages and currents are discussed and the effect of system grounding during transient conditions, including faults, are introduced. Students also learn the concept of power system automation and its role in monitoring, protection, and control of modern power systems. Critical devices used in an automation system, such as breakers, relays, reclosers, capacitor bank controllers, and tap changer controllers are presented.",
-      "prerequisites": "ECE313H1 / ECE314H1 / ECE349H1",
+      "prerequisites": "ECE526H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -948,7 +948,7 @@
       "group": "C",
       "session": "S",
       "description": "Advanced digital systems design concepts including project planning, design flows, IC design technologies, performance estimation and optimization, FPGA architecture, on-chip embedded processors, hardware/software interfacing and interactions, software drivers, on-chip communication, chip-to-chip interfaces, memory interfaces, system-level timing analysis, clocking and clock domains. A significant design project is undertaken and implemented on an FPGA development board.",
-      "prerequisites": "ECE342H1 / ECE352H1",
+      "prerequisites": "ECE532H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -959,8 +959,8 @@
       "group": "B",
       "session": "F",
       "description": "Introduction to the principles and properties of random processes, with applications to communications, control systems, and computer science. Random vectors, random convergence, random processes, specifying random processes, Poisson and Gaussian processes, stationarity, mean square derivatives and integrals, ergodicity, power spectrum, linear systems with stochastic input, mean square estimation, Markov chains, recurrence, absorption, limiting and steady-state distributions, time reversibility, and balance equations.",
-      "prerequisites": "ECE537H1_p1 / ECE302H1",
-      "corequisites": "ECE355H1",
+      "prerequisites": "ECE537H1_p2",
+      "corequisites": "ECE537H1_c1",
       "exclusions": null
     },
     {
@@ -970,7 +970,7 @@
       "group": "C",
       "session": "F",
       "description": "Performance analysis and metrics and cost. Instruction set architectures. Instruction-level parallelism: pipelining, superscalar, dynamic scheduling, VLIW processors. Data-level prallelism: vector processors, GPUs. Thread-level parallelism: multiprocessors, multi-core, coherence, simultaneous multi-threading. Memory hierarchies: caches and virtual memory support. Simulation tools and methods. Limited Enrollment.",
-      "prerequisites": "ECE243H1 / ECE352H1",
+      "prerequisites": "ECE552H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -981,7 +981,7 @@
       "group": "C",
       "session": "B",
       "description": "As computers permeate our society, the security of such computing systems is becoming of paramount importance. This course covers principles of computer systems security. To build secure systems, one must understand how attackers operate. This course starts by teaching students how to identify security vulnerabilities and how they can be exploited. Then techniques to create secure systems and defend against such attacks will be discussed. Industry standards for conducting security audits to establish levels of security will be introduced. The course will include an introduction to basic cryptographic techniques as well as hardware used to accelerate cryptographic operations in ATM's and webservers.",
-      "prerequisites": "ECE344H1 / ECE353H1",
+      "prerequisites": "ECE568H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -992,7 +992,7 @@
       "group": "SCIENCE/MATH ELECTIVES",
       "session": "F",
       "description": "Introduces techniques to analyze and solve partial differential equations (PDEs). Concepts covered include Fourier series, Sturm-Liouville theory, separation of variables, fundamental solutions, Green's functions, method of characteristics, and numerical methods. Applications are in model PDEs in continuum mechanics: heat, Laplace's, wave, and transport equations.",
-      "prerequisites": "MAT290H1 / MAT292H1",
+      "prerequisites": "ESC384H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -1005,7 +1005,7 @@
       "description": "Topics include: limits and continuity; differentiation; applications of the derivative - related rates problems, curve sketching, optimization problems, L'Hopital's rule; definite and indefinite integrals; the Fundamental Theorem of Calculus; applications of integration in geometry, mechanics and other engineering problems.",
       "prerequisites": null,
       "corequisites": null,
-      "exclusions": "APS162H1"
+      "exclusions": "MAT186H1_e1"
     },
     {
       "code": "MAT187H1",
@@ -1014,9 +1014,9 @@
       "group": null,
       "session": "S",
       "description": "Topics include: techniques of integration, an introduction to mathematical modeling with differential equations, infinite sequences and series, Taylor series, parametric and polar curves, and application to mechanics and other engineering problems.",
-      "prerequisites": "APS162H1 / MAT186H1",
+      "prerequisites": "MAT187H1_p1",
       "corequisites": null,
-      "exclusions": "APS163H1 / MAT197H1"
+      "exclusions": "MAT187H1_e1"
     },
     {
       "code": "MAT188H1",
@@ -1058,7 +1058,7 @@
       "group": null,
       "session": "S",
       "description": "This course on Newtonian mechanics considers the interactions which influence 2-D, curvilinear motion. These interactions are described in terms of the concepts of force, work, momentum and energy. Initially the focus is on the kinematics and kinetics of particles. Then, the kinematics and kinetics of systems of particles and solid bodies are examined. Finally, simple harmonic motion is discussed. The occurrence of dynamic motion in natural systems, such as planetary motion, is emphasized. Applications to engineered systems are also introduced.",
-      "prerequisites": "APS160H1 / CIV100H1",
+      "prerequisites": "MIE100H1_p1",
       "corequisites": null,
       "exclusions": null
     },
@@ -1069,12 +1069,15 @@
       "group": null,
       "session": "S",
       "description": null,
-      "prerequisites": "PHY365H1_p1 & PHY365H1_p2",
+      "prerequisites": "PHY365H1_p3",
       "corequisites": null,
       "exclusions": null
     }
   ],
   "coursesets": {
+    "APS112H1_p1": {
+      "courses": "APS111H1 / ESC101H1"
+    },
     "APS360H1_p1": {
       "courses": "APS105H1 / APS106H1 / ESC180H1 / CSC180H1"
     },
@@ -1083,6 +1086,36 @@
     },
     "APS360H1_p3": {
       "courses": "MAT185H1 / MAT188H1"
+    },
+    "APS360H1_p4": {
+      "courses": "APS360H1_p1 & APS360H1_p2 & APS360H1_p3"
+    },
+    "BME440H1_p1": {
+      "courses": "CHE353H1"
+    },
+    "BME445H1_p1": {
+      "courses": "ECE159H1 / ECE110H1"
+    },
+    "BME455H1_p1": {
+      "courses": "CHE353H1 & CHE354H1"
+    },
+    "CHE353H1_e1": {
+      "courses": "BME205H1"
+    },
+    "CHE354H1_p1": {
+      "courses": "CHE353H1"
+    },
+    "CIV100H1_e1": {
+      "courses": "APS160H1"
+    },
+    "CIV220H1_p1": {
+      "courses": "CHE112H1"
+    },
+    "CIV220H1_c1": {
+      "courses": "CIV282H1"
+    },
+    "CIV300H1_e1": {
+      "courses": "ENV346H1"
     },
     "CSC343H1_p1": {
       "courses": "ESC194H1 & ESC195H1"
@@ -1099,11 +1132,62 @@
     "CSC343H1_p5": {
       "courses": "ECE345H1 / ESC190H1"
     },
+    "CSC343H1_p6": {
+      "courses": "CSC343H1_p4 & CSC343H1_p5"
+    },
+    "CSC343H1_e1": {
+      "courses": "CSC343H5 / CSCC43H3 / MIE253H1 / MIE353H1"
+    },
     "CSC384H1_p1": {
       "courses": "ECE345H1 / ECE358H1 / MIE245H1"
     },
     "CSC384H1_p2": {
       "courses": "ECE302H1 / STA286H1 / CHE223H1 / CME263H1 / MIE231H1 / MIE236H1 / MSE238H1 / ECE286H1"
+    },
+    "CSC384H1_p3": {
+      "courses": "CSC384H1_p1 & CSC384H1_p2"
+    },
+    "CSC384H1_e1": {
+      "courses": "CSC384H5 / CSCD84H3 / MIE369H1"
+    },
+    "ECE231H1_p1": {
+      "courses": "ECE110H1 / ECE159H1"
+    },
+    "ECE244H1_p1": {
+      "courses": "APS105H1"
+    },
+    "ECE295H1_p1": {
+      "courses": "ECE231H1 & ECE241H1 & APS105H1"
+    },
+    "ECE295H1_c1": {
+      "courses": "ECE212H1"
+    },
+    "ECE295H1_e1": {
+      "courses": "ECE297H1"
+    },
+    "ECE297H1_p1": {
+      "courses": "APS105H1 & ECE244H1"
+    },
+    "ECE297H1_e1": {
+      "courses": "ECE295H1"
+    },
+    "ECE302H1_p1": {
+      "courses": "MAT290H1 & MAT291H1 & ECE216H1"
+    },
+    "ECE302H1_e1": {
+      "courses": "ECE286H1"
+    },
+    "ECE311H1_p1": {
+      "courses": "MAT290H1 & MAT291H1 & ECE216H1"
+    },
+    "ECE313H1_e1": {
+      "courses": "ECE413H1"
+    },
+    "ECE314H1_p1": {
+      "courses": "ECE212H1 & ECE221H1 & ECE231H1"
+    },
+    "ECE314H1_e1": {
+      "courses": "ECE349H1"
     },
     "ECE316H1_p1": {
       "courses": "MAT290H1 & ECE216H1"
@@ -1111,11 +1195,65 @@
     "ECE316H1_p2": {
       "courses": "MAT389H1 & ECE355H1"
     },
+    "ECE316H1_p3": {
+      "courses": "ECE316H1_p1 / ECE316H1_p2"
+    },
+    "ECE318H1_p1": {
+      "courses": "ECE221H1 / ECE259H1"
+    },
+    "ECE320H1_p1": {
+      "courses": "ECE221H1"
+    },
+    "ECE326H1_e1": {
+      "courses": "CSC324H1 / CSC326H1"
+    },
+    "ECE330H1_p1": {
+      "courses": "ECE221H1 / ECE231H1"
+    },
+    "ECE330H1_e1": {
+      "courses": "MSE235H1"
+    },
+    "ECE331H1_p1": {
+      "courses": "ECE212H1 & ECE231H1"
+    },
     "ECE334H1_p1": {
       "courses": "ECE241H1 & ECE231H1"
     },
     "ECE334H1_p2": {
       "courses": "ECE253H1 & ECE360H1"
+    },
+    "ECE334H1_p3": {
+      "courses": "ECE334H1_p1 / ECE334H1_p2"
+    },
+    "ECE335H1_p1": {
+      "courses": "MAT291H1 & ECE221H1 & ECE231H1"
+    },
+    "ECE335H1_e1": {
+      "courses": "MSE335H1"
+    },
+    "ECE342H1_p1": {
+      "courses": "ECE241H1 & ECE243H1"
+    },
+    "ECE344H1_p1": {
+      "courses": "ECE244H1 & ECE243H1"
+    },
+    "ECE344H1_e1": {
+      "courses": "ECE353H1"
+    },
+    "ECE345H1_p1": {
+      "courses": "ECE244H1"
+    },
+    "ECE357H1_p1": {
+      "courses": "ECE259H1"
+    },
+    "ECE357H1_e1": {
+      "courses": "ECE320H1"
+    },
+    "ECE361H1_p1": {
+      "courses": "ECE302H1 / MIE286H1"
+    },
+    "ECE361H1_c1": {
+      "courses": "ECE302H1"
     },
     "ECE367H1_p1": {
       "courses": "AER210H1 / MAT290H1"
@@ -1123,8 +1261,65 @@
     "ECE367H1_p2": {
       "courses": "MAT185H1 / MAT188H1"
     },
+    "ECE367H1_p3": {
+      "courses": "ECE367H1_p1 & ECE367H1_p2"
+    },
+    "ECE368H1_p1": {
+      "courses": "ECE302H1 / MIE286H1"
+    },
+    "ECE368H1_e1": {
+      "courses": "CSC412H1"
+    },
+    "ECE381H1_p1": {
+      "courses": "MIE231H1 / MIE236H1 / MIE286H1 / MSE238H1 / CHE223H1"
+    },
+    "ECE390H1_p1": {
+      "courses": "ECE241H1 & ECE243H1"
+    },
+    "ECE410H1_p1": {
+      "courses": "ECE311H1"
+    },
+    "ECE410H1_e1": {
+      "courses": "ECE557H1"
+    },
+    "ECE411H1_p1": {
+      "courses": "ECE311H1 / ECE356H1"
+    },
+    "ECE412H1_p1": {
+      "courses": "ECE331H1 / ECE354H1"
+    },
+    "ECE412H1_e1": {
+      "courses": "ECE512H1"
+    },
     "ECE417H1_p1": {
       "courses": "ECE302H1 & ECE316H1"
+    },
+    "ECE417H1_p2": {
+      "courses": "ECE417H1_p1 / MIE286H1"
+    },
+    "ECE419H1_p1": {
+      "courses": "ECE344H1 / ECE353H1"
+    },
+    "ECE421H1_p1": {
+      "courses": "CHE223H1 / ECE302H1 / MIE231H1 / MIE236H1 / MIE286H1 / MSE238H1"
+    },
+    "ECE421H1_e1": {
+      "courses": "CSC411H1 / ECE521H1"
+    },
+    "ECE422H1_p1": {
+      "courses": "ECE320H1 / ECE357H1"
+    },
+    "ECE424H1_e1": {
+      "courses": "ECE524H1"
+    },
+    "ECE427H1_p1": {
+      "courses": "ECE318H1 / ECE320H1 / ECE357H1"
+    },
+    "ECE430H1_p1": {
+      "courses": "ECE331H1 / ECE354H1"
+    },
+    "ECE430H1_e1": {
+      "courses": "ECE530H1"
     },
     "ECE435H1_p1": {
       "courses": "ECE216H1 / ECE355H1"
@@ -1141,16 +1336,40 @@
     "ECE435H1_p5": {
       "courses": "ECE320H1 / ECE357H1"
     },
+    "ECE435H1_p6": {
+      "courses": "ECE435H1_p1 & ECE435H1_p2 & ECE435H1_p3 & ECE435H1_p4 & ECE435H1_p5"
+    },
     "ECE437H1_p1": {
       "courses": "ECE331H1 / ECE334H1 / ECE354H1"
     },
     "ECE437H1_p2": {
       "courses": "ECE335H1 / ECE350H1"
     },
+    "ECE437H1_p3": {
+      "courses": "ECE437H1_p1 & ECE437H1_p2"
+    },
+    "ECE437H1_e1": {
+      "courses": "ECE535H1 / ECE534H1"
+    },
+    "ECE442H1_p1": {
+      "courses": "ECE335H1 / ECE350H1"
+    },
+    "ECE444H1_p1": {
+      "courses": "ECE344H1 / ECE353H1 / ECE297H1"
+    },
+    "ECE444H1_e1": {
+      "courses": "CSC444H1"
+    },
     "ECE463H1_p1": {
       "courses": "ECE314H1 / ECE315H1 / ECE349H1 / ECE359H1"
     },
     "ECE463H1_p2": {
+      "courses": "ECE311H1 / ECE356H1 / AER372H1"
+    },
+    "ECE463H1_p3": {
+      "courses": "ECE463H1_p1 & ECE463H1_p2"
+    },
+    "ECE463H1_c1": {
       "courses": "ECE311H1 / ECE356H1 / AER372H1"
     },
     "ECE464H1_p1": {
@@ -1159,14 +1378,80 @@
     "ECE464H1_p2": {
       "courses": "ECE417H1 & MIE286H1"
     },
+    "ECE464H1_p3": {
+      "courses": "ECE464H1_p1 / ECE464H1_p2"
+    },
+    "ECE466H1_p1": {
+      "courses": "ECE361H1"
+    },
+    "ECE467H1_p1": {
+      "courses": "ECE243H1 / ECE352H1"
+    },
+    "ECE467H1_e1": {
+      "courses": "CSC467H1"
+    },
+    "ECE470H1_p1": {
+      "courses": "ECE311H1 / ECE356H1"
+    },
+    "ECE470H1_e1": {
+      "courses": "AER525H1"
+    },
+    "ECE484H1_p1": {
+      "courses": "MIE286H1 / ECE302H1"
+    },
+    "ECE496Y1_e1": {
+      "courses": "APS490Y1"
+    },
+    "ECE520H1_p1": {
+      "courses": "ECE314H1 / ECE349H1 / ECE359H1"
+    },
+    "ECE520H1_e1": {
+      "courses": "ECE514H1 / ECE533H1"
+    },
+    "ECE526H1_p1": {
+      "courses": "ECE313H1 / ECE314H1 / ECE349H1"
+    },
+    "ECE532H1_p1": {
+      "courses": "ECE342H1 / ECE352H1"
+    },
     "ECE537H1_p1": {
       "courses": "ECE355H1 & MIE286H1"
+    },
+    "ECE537H1_p2": {
+      "courses": "ECE537H1_p1 / ECE302H1"
+    },
+    "ECE537H1_c1": {
+      "courses": "ECE355H1"
+    },
+    "ECE552H1_p1": {
+      "courses": "ECE243H1 / ECE352H1"
+    },
+    "ECE568H1_p1": {
+      "courses": "ECE344H1 / ECE353H1"
+    },
+    "ESC384H1_p1": {
+      "courses": "MAT290H1 / MAT292H1"
+    },
+    "MAT186H1_e1": {
+      "courses": "APS162H1"
+    },
+    "MAT187H1_p1": {
+      "courses": "APS162H1 / MAT186H1"
+    },
+    "MAT187H1_e1": {
+      "courses": "APS163H1 / MAT197H1"
+    },
+    "MIE100H1_p1": {
+      "courses": "APS160H1 / CIV100H1"
     },
     "PHY365H1_p1": {
       "courses": "PHY256H1 / PHY294H1 / CHM223H1 / ECE330H1"
     },
     "PHY365H1_p2": {
       "courses": "MAT223H1 / MAT240H1"
+    },
+    "PHY365H1_p3": {
+      "courses": "PHY365H1_p1 & PHY365H1_p2"
     }
   }
 }
