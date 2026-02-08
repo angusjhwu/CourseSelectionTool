@@ -18,5 +18,3 @@ Website: https://engineering.calendar.utoronto.ca/section/Electrical-and-Compute
 - MacOS
 - Python3.13 and C/C++ available
 
-## Requirements
-- Contain all 
