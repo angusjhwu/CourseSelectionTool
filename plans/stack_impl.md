@@ -190,31 +190,27 @@ For N courses in the plan, with M coursesets of average depth D:
 ## 5. UI Layout
 
 ```
-┌────────────────────────────────────────────────────────────────┐
-│  Course Selection Tool                     [Save] [Load] [Clear]│
-├────────────┬───────────────────────────────────────────────────┤
-│            │                                                    │
-│  SIDEBAR   │  PLANNER GRID                                     │
-│            │                                                    │
-│  [Search]  │  ┌─────────┬─────────┬─────────┬─────────┐       │
-│  [Filters] │  │ Fall    │ Winter  │ Fall    │ Winter  │ ...   │
-│            │  │ Year 1  │ Year 1  │ Year 2  │ Year 2  │       │
-│  ┌───────┐ │  ├─────────┼─────────┼─────────┼─────────┤       │
-│  │ECE244 │ │  │┌───────┐│         │         │         │       │
-│  │Prog F.│ │  ││APS105 ││         │         │         │       │
-│  ├───────┤ │  │├───────┤│         │         │         │       │
-│  │ECE241 │ │  ││APS111 ││         │         │         │       │
-│  │Digital│ │  │└───────┘│         │         │         │       │
-│  ├───────┤ │  │         │         │         │         │       │
-│  │...    │ │  └─────────┴─────────┴─────────┴─────────┘       │
-│  └───────┘ │                                                    │
-│            │  [+ Add Semester]                                  │
-│  Groups:   │                                                    │
-│  [A][B][C] │  VALIDATION PANEL                                 │
-│  [MATH]    │  ⚠ ECE435H1: Missing prerequisites               │
-│  [SCIENCE] │    Need one of: ECE216H1, ECE355H1               │
-│            │    Need one of: ECE302H1, MIE286H1               │
-└────────────┴───────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│  Course Selection Tool                            [Save] [Load] [Clear] │
+├────────────┬─────────────────────────────────────┬───────────────────────┤
+│            │                                     │                       │
+│  SIDEBAR   │  PLANNER GRID                       │  COURSE INFO PANEL   │
+│            │                                     │                       │
+│  [Search]  │  Fall — Year 1                      │  ECE244H1            │
+│  [Filters] │  ┌──────┬──────┬──────┬──────┬────┐ │  Programming Fund.   │
+│            │  │APS105│APS111│      │      │    │ │                       │
+│  ┌───────┐ │  └──────┴──────┴──────┴──────┴────┘ │  Session: Fall       │
+│  │ECE244 │ │                                     │  Group: A            │
+│  │Prog F.│ │  Winter — Year 1                    │                       │
+│  ├───────┤ │  ┌──────┬──────┬──────┬──────┬────┐ │  Description:        │
+│  │ECE241 │ │  │      │      │      │      │    │ │  An introduction...  │
+│  │Digital│ │  └──────┴──────┴──────┴──────┴────┘ │                       │
+│  ├───────┤ │                                     │  Prerequisites:      │
+│  │...    │ │  ...                                │  APS105H1            │
+│  └───────┘ │                                     │                       │
+│  Groups:   │  VALIDATION PANEL                   │           [×]        │
+│  [A][B][C] │  ⚠ ECE435H1: Missing prereqs       │                       │
+└────────────┴─────────────────────────────────────┴───────────────────────┘
 ```
 
 ### Sidebar
@@ -238,7 +234,16 @@ For N courses in the plan, with M coursesets of average depth D:
 
 - Border color: green (valid), red (invalid), grey (no requirements to check)
 - Hover: Tippy.js tooltip showing course title + any validation errors
-- Click: expand to show full description + prerequisites in readable form
+- Click: opens Course Information Panel with full details
+
+### Course Information Panel
+
+- Appears to the **right** of the planner grid as a third column
+- Hidden by default; shown when a course card is clicked (sidebar or grid)
+- Displays: code, title, session, group, description, prerequisites, corequisites, exclusions
+- Has a close (×) button in the top-right corner
+- Clicking the same course again toggles the panel closed
+- Layout: `.app-layout` switches from `250px 1fr` to `250px 1fr 300px` when open
 
 ### Validation Panel
 

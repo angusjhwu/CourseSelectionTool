@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Selection Tool</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Course Selection Tool</h1>
+    <div class="header-actions">
+      <button class="btn" disabled>Load</button>
+      <button class="btn" disabled>Save</button>
+      <button class="btn" disabled>Clear</button>
+    </div>
+  </header>
+
+  <main class="app-layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-controls">
+        <input class="search-input" type="text" placeholder="Search courses…" disabled>
+        <select class="group-filter" disabled>
+          <option>All Groups</option>
+        </select>
+      </div>
+      <div class="course-list" id="course-list">
+        <!-- Course cards rendered by JS -->
+      </div>
+    </aside>
+
+    <section class="planner" id="planner">
+      <div class="grid-container" id="grid-container">
+        <!-- Semester rows rendered by JS -->
+      </div>
+    </section>
+
+    <aside class="info-panel" id="info-panel">
+      <button class="info-panel-close" id="info-panel-close">&times;</button>
+      <div class="info-panel-content" id="info-panel-content">
+        <!-- Populated by JS when a course is clicked -->
+      </div>
+    </aside>
+  </main>
+
+  <footer class="validation-panel" id="validation-panel">
+    <!-- Validation errors rendered in Phase 3 -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

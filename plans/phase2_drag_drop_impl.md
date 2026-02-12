@@ -287,6 +287,35 @@ Grid course cards (created by SortableJS cloning) should get an X button appende
 }
 ```
 
+### 6. Course Information Panel
+
+A panel to the right of the planner that shows details when a course card is clicked.
+
+**HTML addition to `index.html`:**
+Add an `<aside class="info-panel" id="info-panel">` inside `.app-layout`, after the planner section. Hidden by default.
+
+**Layout change:**
+Update `.app-layout` grid to three columns: `250px 1fr auto`. The info panel column only appears when a course is selected (toggled via a class on `.app-layout`).
+
+**Panel content:**
+- Course code + title (header)
+- Session (Fall/Winter/Both)
+- Group (if any)
+- Description
+- Prerequisites / Corequisites / Exclusions (raw courseset strings resolved from courseData)
+- Close (×) button in top-right corner
+
+**JS behavior (in `main.js`):**
+- Add click event listeners on all `.course-card` elements (both sidebar and grid)
+- Clicking a card calls `showCourseInfo(courseCode)` which populates the panel and adds `.info-open` class to `.app-layout`
+- Close button removes `.info-open` class and hides the panel
+- Clicking the same course again closes the panel (toggle behavior)
+
+**CSS:**
+- `.info-panel` is hidden (`display: none`) by default
+- `.app-layout.info-open` changes grid to `250px 1fr 300px` and `.info-panel` becomes visible
+- Panel has left border, scrollable, with styled sections for each field
+
 ## Verification
 
 1. **Serve locally:** `cd src && python3 -m http.server 8000`, open `http://localhost:8000`
